@@ -1,0 +1,72 @@
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c7bcbc;
+}
+
+header {
+    background-color: #333;
+    color: #f7f1f1;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 0;
+    background: url('images/pexels-bclarkphoto-21492.jpg') no-repeat center center/cover;
+}
+
+.team-member {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.team-member img {
+    width: 50%;
+    border-radius: 25%;
+    height: 20px;
+    object-fit: cover;
+}
+
+.team-member h3 {
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+.team-member p {
+    font-size: 1em;
+    color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}

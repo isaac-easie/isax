@@ -1,0 +1,49 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    margin: 0;
+  }
+  
+  /* Button container */
+  .button-container {
+    text-align: center;
+  }
+  
+  /* Continue button styles */
+  .continue-btn {
+    background: linear-gradient(145deg, #4e88e0, #2a62d1);
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 12px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Icon arrow styling */
+  .arrow {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  
+  /* Hover effect */
+  .continue-btn:hover {
+    background: linear-gradient(145deg, #2a62d1, #4e88e0);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Focus effect */
+  .continue-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  
